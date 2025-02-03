@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500;600;700;900&family=Kanit:wght@100;400;500;600;700;800&family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+
+main {
+    width: 100vw;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
+    margin: 0px auto;
+    padding: 120px 0px;
+    font-family: Russo One, sans-serif;
+}
+
+:root {
+    --spacing: 350px;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header {
+    background-color: rgb(255, 255, 255, 0.7);
+    grid-column: 2 / span 5;
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+    border-radius: 3px;
+}
+
+
+
+h1, h2 {
+    color: rgb(0, 0, 0);
+}
+
+section {
+    color: rgb(0, 0, 0);
+    grid-column: 2 / 8;
+    padding: 1rem;
+    background-color: rgb(220, 20, 60, 0.7);
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: var(--spacing);
+    border-radius: 3px;
+    font-family: 'Roboto Mono', monospace;
+
+  }
+
+
+.left {
+    grid-column: 6 / 12;
+  }
